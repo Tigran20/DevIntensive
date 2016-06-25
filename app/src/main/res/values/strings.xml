@@ -8,4 +8,10 @@
     <string name="info.title.vk_textview">Профиль в VK</string>
     <string name="info.title.github_textbiew">Репозиторий</string>
     <string name="info.title.about_textbiew">О себе</string>
+    <string name="_5">5</string>
+    <string name="_8_916_322_66_66">8-916-322-66-66</string>
+    <string name="email_email_com">email@email.com</string>
+    <string name="vk_com">vk.com/</string>
+    <string name="github_com_tigran20">github.com/Tigran20</string>
+    <string name="about">Алексей Николаевич</string>
 </resources>

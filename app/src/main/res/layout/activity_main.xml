@@ -24,7 +24,7 @@
                         android:id="@+id/rating_count"
                         style="@style/status_textview.font_size_22"
                         android:textSize="@dimen/font_larger_22"
-                        android:text="5"/>
+                        android:text="@string/_5"/>
                     <TextView
                         style="@style/status_textview"
                         android:text="@string/info.title.rating_textview"/>
@@ -42,7 +42,7 @@
                     <TextView
                         android:id="@+id/code_strings_count"
                         style="@style/status_textview.font_size_22"
-                        android:text="5"/>
+                        android:text="@string/_5"/>
                     <TextView
                         style="@style/status_textview"
                         android:text="@string/info.title.code_strings_textview"/>
@@ -60,7 +60,7 @@
                     <TextView
                         android:id="@+id/projects_count"
                         style="@style/status_textview.font_size_22"
-                        android:text="5"/>
+                        android:text="@string/_5"/>
                     <TextView
                         style="@style/status_textview"
                         android:text="@string/info.title.projects_textview"/>
@@ -78,7 +78,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/ic_local_phone_gray_24dp"/>
+                        android:src="@drawable/ic_local_phone_gray_24dp"
+                        android:contentDescription=""/>
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
@@ -91,7 +92,7 @@
                                 style="@style/edittext_disabled"
                                 android:hint="@string/info.title.mobile_textview"
                                 android:inputType="number"
-                                android:text="8-916-322-66-66"/>
+                                android:text="@string/_8_916_322_66_66"/>
                         </android.support.design.widget.TextInputLayout>
                     </LinearLayout>
                     <ImageView
@@ -126,7 +127,7 @@
                             style="@style/edittext_disabled"
                             android:hint="@string/info.title.email_textview"
                             android:inputType="textEmailAddress"
-                            android:text="email@email.com"/>
+                            android:text="@string/email_email_com"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
                 <ImageView
@@ -160,7 +161,7 @@
                             style="@style/edittext_disabled"
                             android:hint="@string/info.title.vk_textview"
                             android:inputType="textUri"
-                            android:text="vk.com/"/>
+                            android:text="@string/vk_com"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
                 <ImageView
@@ -193,7 +194,7 @@
                             style="@style/edittext_disabled"
                             android:hint="@string/info.title.github_textbiew"
                             android:inputType="textUri"
-                            android:text="github.com/Tigran20"/>
+                            android:text="@string/github_com_tigran20"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
                 <ImageView
@@ -228,7 +229,7 @@
                             android:id="@+id/about"
                             style="@style/edittext_disabled"
                             android:hint="@string/info.title.about_textbiew"
-                            android:text="Алексей Николаевич"/>
+                            android:text="@string/about"/>
                     </android.support.design.widget.TextInputLayout>
                 </LinearLayout>
             </LinearLayout>
